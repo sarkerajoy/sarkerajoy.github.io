@@ -1,0 +1,49 @@
+1:"$Sreact.fragment"
+2:I[9304,["578","static/chunks/578-7808c405de50c6f7.js","533","static/chunks/533-791d11784fbc88b6.js","699","static/chunks/699-723c3562ae95eb38.js","806","static/chunks/806-ec9c39afceee9af9.js","177","static/chunks/app/layout-28a78eddcc452448.js"],"ThemeProvider"]
+3:I[4865,["578","static/chunks/578-7808c405de50c6f7.js","533","static/chunks/533-791d11784fbc88b6.js","699","static/chunks/699-723c3562ae95eb38.js","806","static/chunks/806-ec9c39afceee9af9.js","177","static/chunks/app/layout-28a78eddcc452448.js"],"default"]
+4:I[7555,[],""]
+5:I[1295,[],""]
+6:I[7746,["578","static/chunks/578-7808c405de50c6f7.js","533","static/chunks/533-791d11784fbc88b6.js","699","static/chunks/699-723c3562ae95eb38.js","806","static/chunks/806-ec9c39afceee9af9.js","177","static/chunks/app/layout-28a78eddcc452448.js"],"default"]
+7:I[9243,["578","static/chunks/578-7808c405de50c6f7.js","533","static/chunks/533-791d11784fbc88b6.js","699","static/chunks/699-723c3562ae95eb38.js","806","static/chunks/806-ec9c39afceee9af9.js","177","static/chunks/app/layout-28a78eddcc452448.js"],""]
+9:I[894,[],"ClientPageRoot"]
+a:I[2533,["578","static/chunks/578-7808c405de50c6f7.js","533","static/chunks/533-791d11784fbc88b6.js","63","static/chunks/63-10e386f1d7ed763c.js","699","static/chunks/699-723c3562ae95eb38.js","974","static/chunks/app/page-a6dbbc71a331821c.js"],"default"]
+d:I[9665,[],"OutletBoundary"]
+10:I[9665,[],"ViewportBoundary"]
+12:I[9665,[],"MetadataBoundary"]
+14:I[6614,[],""]
+:HL["/_next/static/css/0b37ec99750a4669.css","style"]
+:HL["/_next/static/css/16e2d1fd4412f353.css","style"]
+8:T48e,
+            document.addEventListener('DOMContentLoaded', function() {
+              // Only run if SplitType is loaded
+              if (typeof SplitType !== 'undefined') {
+                // Initialize text animations
+                const heroText = document.querySelector('.hero-title');
+                const heroSubtitle = document.querySelector('.hero-subtitle');
+                
+                if (heroText) {
+                  const heroSplit = new SplitType(heroText, { types: 'chars' });
+                  const chars = heroSplit.chars;
+                  
+                  for (let i = 0; i < chars.length; i++) {
+                    chars[i].style.animationDelay = (i * 0.05) + 's';
+                  }
+                }
+                
+                if (heroSubtitle) {
+                  const subtitleSplit = new SplitType(heroSubtitle, { types: 'words' });
+                  const words = subtitleSplit.words;
+                  
+                  for (let i = 0; i < words.length; i++) {
+                    words[i].style.animationDelay = (i * 0.08 + 0.5) + 's';
+                  }
+                }
+              }
+            });
+          0:{"P":null,"b":"zyyq7MmxiTbnt8JRrZXw4","p":"","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/0b37ec99750a4669.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/16e2d1fd4412f353.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"className":"__variable_c70c06 __variable_d59694 font-sans","children":[["$","$L2",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":true,"children":[["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L6",null,{}]]}],["$","$L7",null,{"src":"https://unpkg.com/split-type"}],["$","$L7",null,{"id":"text-animation","children":"$8"}]]}]}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","$L9",null,{"Component":"$a","searchParams":{},"params":{},"promises":["$@b","$@c"]}],"$undefined",null,["$","$Ld",null,{"children":["$Le","$Lf",null]}]]}],{},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","JHgx-JqyZ6bbzhPeY1xhl",{"children":[["$","$L10",null,{"children":"$L11"}],null]}],["$","$L12",null,{"children":"$L13"}]]}],false]],"m":"$undefined","G":["$14","$undefined"],"s":false,"S":true}
+b:{}
+c:{}
+11:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+e:null
+f:null
+13:[["$","title","0",{"children":"Ajoy Kumar Sarker - Portfolio"}],["$","meta","1",{"name":"description","content":"Personal portfolio of Ajoy Kumar Sarker, Mechanical Engineer & Researcher"}],["$","meta","2",{"name":"generator","content":"v0.dev"}]]
